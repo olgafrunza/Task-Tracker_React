@@ -7,10 +7,12 @@
 body {
   background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
   height: 100vh;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 0.06rem;
 }
 
 .container {
-  background-image: -o-linear-gradient(
+  background-image: linear-gradient(
     to bottom right,
     rgb(204, 16, 119),
     rgb(231, 191, 213)
@@ -19,4 +21,75 @@ body {
   margin: 3rem auto;
   padding: 2rem;
   border-radius: 5px;
+}
+
+.header {
+  text-align: center;
+  margin: 1rem;
+}
+
+.btn {
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+  font-weight: 900;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  background-color: purple;
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.task {
+  background-color: #f4f4f4;
+  margin: 0.7rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.done {
+  background-color: darkgray;
+  text-decoration: line-through;
+  border-left: 10px solid rgb(102, 18, 77);
 }
